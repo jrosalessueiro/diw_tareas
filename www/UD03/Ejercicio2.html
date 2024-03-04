@@ -12,18 +12,6 @@
             background-color: #ccc;
         }
 
-        .split-3-columns {
-            columns: 3;
-            display: block;
-            height: 200px;
-            padding: 20px;
-            background: #ccc;
-            margin: 10px;
-            overflow: hidden;
-            width: 650px;
-            padding: 10px;
-        }
-
         header {
             background-color: #fff;
             color: black;
@@ -35,6 +23,16 @@
             background-color: aqua;
             text-align: center;
             width: 100%;
+            flex: 1;
+            /* Que cada artículo tome la misma cantidad de espacio dentro de la fila */
+            margin: 10px;
+            /* Espacio entre las columnas */
+            max-width: calc(33.333% - 20px);
+            /* Ancho máximo de cada columna, teniendo en cuenta el margen */
+        }
+
+        section {
+            display: flex;
         }
 
         #hotel1,
