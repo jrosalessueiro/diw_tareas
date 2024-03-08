@@ -1,0 +1,162 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Description: Plantilla de tres columnas y tamaño fijo ideal para una resolución de 1024x768.
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>DIW04 Plantilla CSS</title>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link href="default.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            <h1><a href="#">TodoFP</a></h1>
+            <h2><a href="http://www.educacion.gob.es">www.educacion.gob.es</a></h2>
+        </div>
+        <div id="menu">
+            <ul>
+                <li class="active"><a href="#" title="">Inicio</a></li>
+                <li><a href="#" title="">Información</a></li>
+                <li><a href="#" title="">Cursos</a></li>
+                <li><a href="#" title="">Alumnos</a></li>
+                <li><a href="#" title="">Ayuda</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="content">
+        <div id="sidebar">
+            <div id="login" class="boxed">
+                <div class="title">
+                    <h2>Area de usuarios</h2>
+                </div>
+                <div class="content">
+                    <form id="form1" method="post" action="#">
+                        <fieldset>
+                            <legend>Accede</legend>
+                            <label for="inputtext1">ID de Usuario:</label>
+                            <input id="inputtext1" type="text" name="inputtext1" value="" />
+                            <label for="inputtext2">Contraseña:</label>
+                            <input id="inputtext2" type="password" name="inputtext2" value="" />
+                            <input id="inputsubmit1" type="submit" name="inputsubmit1" value="Acceder" />
+                            <p><a href="#">¿Olvidaste la contraseña?</a></p>
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+            <!-- end #login -->
+            <div id="updates" class="boxed">
+                <div class="title">
+                    <h2>Unidades de trabajo</h2>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>
+                            <h3>DIW01, 2011</h3>
+                            <p><a href="#">Planificación de interfaces gráficas.&#8230;</a></p>
+                        </li>
+                        <li>
+                            <h3>DIW02, 2011</h3>
+                            <p><a href="#">Accesibilidad en la Web.&#8230;</a></p>
+                        </li>
+                        <li>
+                            <h3>DIW03, 2011</h3>
+                            <p><a href="#">Usabilidad en la Web.&#8230;</a></p>
+                        </li>
+                        <li>
+                            <h3>DIW04, 2011</h3>
+                            <p><a href="#">Hojas de estilos.&#8230;</a></p>
+                        </li>
+                        <li>
+                            <h3>DIW05, 2011</h3>
+                            <p><a href="#">Contenidos multimedia en la Web: Imágenes.&#8230;</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end #updates -->
+        </div>
+        <!-- end #sidebar -->
+        <div id="main">
+            <div id="welcome" class="post">
+                <h2 class="title"><span>¡Bienvenido a TodoFP!</span></h2>
+                <h3 class="date"><span class="month">Oct.</span> <span class="day">10</span><span class="year">,
+                        2011</span></h3>
+                <div class="story"><img src="images/Copia de DIW04_SOL_TAR_R08.jpg" alt="" width="120" height="120"
+                        class="left" />
+                    <p><strong>FP a distancia</strong> Esta oferta está dirigida especialmente a aquellas personas que,
+                        por diferentes razones (no solo laborales), no pueden cursar en los centros educativos y en el
+                        horario presencial, la <a href="http://todofp.es/todofp">Formación Profesional</a>. Por tanto,
+                        mayoritariamente será el colectivo de personas adultas el destinatario de esta modalidad de
+                        enseñanza.
+                        Toda la información desde la web: <a href="http://www.educacion.gob.es/fponline.html">FP
+                            online</a>.<em>¡¡Matricúlate!!</em></p>
+                </div>
+                <div class="meta">
+                    <p>Realizado por José Rosales Sueiro <a href="#">TodoFP</a> | <a href="#">Educación</a></p>
+                </div>
+            </div>
+            <!-- end #welcome -->
+            <div id="example" class="post">
+                <h2 class="title"><span>DIW04. Hojas de estilos.</span></h2>
+                <h3 class="date"><span class="month">Oct.</span> <span class="day">10</span><span class="year">,
+                        2011</span></h3>
+                <div class="story">
+                    <blockquote>
+                        <p>&ldquo;Orden EDU/2887/2010, de 2 de noviembre, por la que se establece el currículo del ciclo
+                            formativo de Grado Superior correspondiente al título de Técnico Superior en Desarrollo de
+                            Aplicaciones Web.&rdquo;</p>
+                    </blockquote>
+                    <p>Técnicas, procedimiento y actitudes relacionadas:</p>
+                    <ol>
+                        <li>Crear y vincular hojas de estilo</li>
+                        <li>Crear y vincular hojas de estilo en cascada externa</li>
+                    </ol>
+                    <p>Conceptos soporte relacionados:</p>
+                    <ol>
+                        <li>Estilos en línea basados en etiquetas y en clases</li>
+                        <li>Hojas de estilo auditivas</li>
+                        <li>Hojas de estilo para imprimir</li>
+                        <li>Herramientas y test de verificación</li>
+                    </ol>
+                </div>
+                <div class="meta">
+                    <p>Realizado por José Rosales Sueiro <a href="#">DIW</a> | <a href="#">TodoFP</a></p>
+                </div>
+            </div>
+            <!-- end #example -->
+        </div>
+        <!-- end #main -->
+        <div id="sidebar2">
+            <div id="websinteres" class="boxed">
+                <div class="title">
+                    <h2>Webs de Interés</h2>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li> <a href="#">TodoFP</a></li>
+                        <li> <a href="#">FP online </a></li>
+                        <li> <a href="#">Platega </a></li>
+                        <li> <a href="#">IES San Clemente </a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end #websinteres -->
+            <div id="ad120x600"><a href="#"><img src="images/Copia de DIW04_SOL_TAR_R00.jpg" alt="" width="120"
+                        height="600" /></a></div>
+        </div>
+        <div style="clear: both;">&nbsp;</div>
+    </div>
+    <!-- end #sidebar2 -->
+    <!-- end #content -->
+    <div id="footer">
+        <p id="legal">Copyright &copy; 2011 TodoFP. Todos los derechos reservados. Diseñado por <a
+                href="http://www.educacion.gob.es">www.educacion.gob.es</a>.</p>
+    </div>
+</body>
+
+</html>

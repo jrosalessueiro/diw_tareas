@@ -1,0 +1,326 @@
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0;
+	background: #FFFFFF;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+h1, h2, h3 {
+	color: #333333;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	line-height: 1.65em;
+	text-align: justify;
+}
+
+blockquote {
+	margin-left: 2em;
+	margin-right: 2em;
+	font-style: italic;
+}
+
+ul {
+	margin-left: 3em;
+}
+
+ol {
+	margin-left: 3em;
+}
+
+a {
+	text-decoration: underline;
+	color: #3E9722;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #E58C24;
+}
+
+img {
+	border: none;
+}
+
+img.left {
+	float: left;
+	margin: 5px 20px 0 0;
+}
+
+img.right {
+	float: right;
+	margin: 5px 0 0 20px;
+}
+
+/* Boxed */
+
+.boxed .title {
+	background: #3C74E6 url(images/Copia\ de\ DIW04_SOL_TAR_R06.jpg) repeat-x;
+}
+
+.boxed .title h2 {
+	height: 28px;
+	padding: 12px 0 0 20px;
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #FFFFFF;
+}
+
+.boxed .content {
+	padding: 20px;
+	border-top: 1px solid #FFFFFF;
+	background: url(images/Copia\ de\ DIW04_SOL_TAR_R07.jpg) repeat-x;
+}
+
+/* Post */
+
+.post .title {
+	background: #3C74E6 url(images/Copia\ de\ DIW04_SOL_TAR_R06.jpg) repeat-x;
+	font-size: 1em;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+.post .title span {
+	display: block;
+	height: 28px;
+	padding: 12px 0 0 20px;
+}
+
+.post .date {
+	margin-top: -25px;
+	padding-bottom: 10px;
+	padding-right: 20px;
+	text-align: right;
+	font-size: x-small;
+	color: #FFFFFF;
+}
+
+.post .meta {
+	clear: both;
+}
+
+.post .meta p {
+	margin: 0;
+	padding: 10px 20px 40px 20px;
+	border-top: 1px dotted #CCCCCC;
+	line-height: normal;
+	font-size: x-small;
+}
+
+.post .story {
+	padding: 20px;
+	border-top: 1px solid #FFFFFF;
+	background: url(images/Copia\ de\ DIW04_SOL_TAR_R07.jpg) repeat-x;
+}
+
+/* Header */
+
+#header {
+	width: 920px;
+	height: 120px;
+	margin: 0 auto;
+	padding: 20px 20px 0 20px;
+	background: #CAE646 url(images/Copia\ de\ DIW04_SOL_TAR_R01.jpg) no-repeat;
+}
+
+/* Header > Logo */
+
+#logo {
+	float: left;
+	width: 240px;
+	height: 50px;
+}
+
+#logo h1 {
+	float: left;
+	margin: 0;
+	padding: 50px 0 0 0;
+	font-size: 2.6em;
+}
+
+#logo h2 {
+	float: left;
+	margin-top: -5px;
+	font-size: 1em;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Cabecera > Menu */
+
+#menu {
+	float: right;
+}
+
+#menu ul {
+	margin: 0;
+	padding-top: 79px;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 120px;
+	height: 30px;
+	margin-left: 2px;
+	padding-top: 10px;
+	background: url(images/Copia\ de\ DIW04_SOL_TAR_R03.jpg) no-repeat;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+}
+
+#menu a:hover {
+	background-image: url(images/Copia\ de\ DIW04_SOL_TAR_R04.jpg);
+}
+
+#menu .active a {
+	background-image: url(images/Copia\ de\ DIW04_SOL_TAR_R05.jpg);
+}
+
+/* Content */
+
+#content {
+	width: 920px;
+	margin: 0 auto;
+	padding: 20px;
+	background: url(images/Copia\ de\ DIW04_SOL_TAR_R02.jpg) no-repeat;
+	border-top: 1px solid #FFFFFF;
+}
+
+/* Content > main */
+
+#main {
+	float: left;
+	width: 480px;
+	padding-left: 20px;
+}
+
+
+/* Content > sidebar */
+
+#sidebar {
+	float: left;
+	width: 220px;
+}
+
+/* Content > sideba > Inicio de sesión*/
+
+#login fieldset {
+	border: none;
+}
+
+#login legend {
+	display: none;
+}
+
+#login label {
+	display: block;
+}
+
+#login input {
+	margin-bottom: 10px;
+	padding: 2px 5px;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #666666;
+}
+
+#inputtext1, #inputtext2 {
+	width: 160px;
+}
+
+#inputsubmit1 {
+	margin: 0;
+	padding: 0;
+}
+
+/* Content > Sidebar > updates */
+
+#updates ul {
+	margin: 0;
+	list-style: none;
+}
+
+#updates h3 {
+	font-size: .8em;
+}
+
+#updates p {
+	line-height: normal;
+	font-size: .8em;
+}
+
+#updates a {
+	text-decoration: none;
+}
+
+/* Content > sidebar2 */
+
+#sidebar2 {
+	float: left;
+	width: 180px;
+	padding-left: 20px;
+}
+
+/* Content > sidebar2 > WebsInteres */
+
+#websinteres ul {
+	margin-left: 0;
+	padding-left: 0;
+	list-style: inside;
+}
+
+/* Content > sidebar2 > Imagen */
+
+#ad120x600 {
+	text-align: center;
+}
+
+/* footer */
+
+#footer {
+	clear: both;
+	width: 960px;
+	height: 80px;
+	margin: 0 auto;
+	padding: 20px 0;
+	background: url(images/Copia\ de\ DIW04_SOL_TAR_R02.jpg) no-repeat;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	line-height: normal;
+	font-size: x-small;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #666666;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
